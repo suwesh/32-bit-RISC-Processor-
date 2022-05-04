@@ -3,6 +3,7 @@
 Harvard Architecture is a computer architecture with seperate memory and pathways for data and instructions, whereas in von-newmann architecture data and instructions share the same memory and pathways.
 
 Instruction Set
+
 -Memory Access Instructions
 1. Load word-LW: LD ws, offset(rs1) - ws Mem32[rs1+rs2]
 2. Store word-SW: ST rs2, offset(rs1) Mem32[rs1+offset]=rs2
