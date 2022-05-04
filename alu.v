@@ -12,10 +12,10 @@ case(alu_sel)
 3'b011: alu_out = a<<b; // LSL
 3'b100: alu_out = a>>b; // LSR
 3'b101: alu_out = a & b; // bitwise AND
-3'b110: alu_out = a | b;// bitwise OR
+3'b110: alu_out = a | b; // bitwise OR
 3'b111: begin if(a<b) begin alu_out = 32'd1; end
               else begin alu_out = 32'd0; end
-        end
+        end // SLT
 default: alu_out = a + b; // ADD
 endcase
 end
