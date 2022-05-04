@@ -5,7 +5,7 @@ output reg jump, BEQ, BNE, mem_read, mem_write, alu_src, reg_dst, mem_to_reg, re
 always @(*)
 begin
   case(opcode)
-  4'b0000: begin // LW
+  4'b0000: begin // LW - load word from memory to register
            reg_dst = 1'b0; // writing the microinstructions
            alu_src = 1'b1;
            mem_to_reg = 1'b1;
@@ -17,7 +17,7 @@ begin
            aluop = 2'b10;
            jump = 1'b0;
            end
-  4'b0001: begin // SW
+  4'b0001: begin // SW - store word from register to memory
            reg_dst = 1'b0; // writing the microinstructions
            alu_src = 1'b1;
            mem_to_reg = 1'b0;
