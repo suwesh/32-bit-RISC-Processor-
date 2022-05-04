@@ -28,3 +28,7 @@ Instruction Set
 
 ----- ALU design -----
 ![ALUdesign](https://user-images.githubusercontent.com/83471963/166801657-cf9fadd9-6001-4e35-b3dd-9c2ff086f19b.png)
+
+----- RISC circuit diagram -----
+![risc_circuitdiagram](https://user-images.githubusercontent.com/83471963/166807277-959892d7-caa7-43ed-bb72-34d47d5b2b3e.jpg)
+                                               
